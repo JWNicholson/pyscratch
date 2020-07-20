@@ -37,14 +37,43 @@
 # # reverse the string
 # print(s[::-1])
 
-# ##### Immutability ########
+# ##### String Properties and Methods ########
 # """
 # strings are immutable
 # """
 
-# change the name Sam to Pam
-name = "Sam"
+# Concatenate - change the name Sam to Pam
+# name = "Sam"
 
-last_letters = name[1:]
+# last_letters = name[1:]
 
-print('P' + last_letters)
+# print('P' + last_letters)
+
+# # Multiplication of letters
+# a = 'words '
+# a_1 = a * 4
+# print(a_1)
+
+## show methods avaialble for data type (in this case a string)
+### assign a variable
+### type the variable plus dot for popup with available methods 
+x = 'the string thing'
+# #x.
+# x = x.upper()
+# print(x)
+
+# split-default splits on spaces - makes a list
+# print(x.split())
+
+# #split - on the t's - includes the spaces
+# print(x.split('t'))
+
+#### String Formatting
+"""
+.fromat() method
+"""
+print('The String {}'.format('Thing'))
+
+## insert by index
+print('Eat {0} {2} {1}'.format('more','sandwiches', 'possum'))
+print('Eat {a} {b} {b}'.format(a='more', b='sandwiches', c='possum'))
