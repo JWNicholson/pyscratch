@@ -57,7 +57,7 @@
 ## show methods avaialble for data type (in this case a string)
 ### assign a variable
 ### type the variable plus dot for popup with available methods 
-x = 'the string thing'
+#x = 'the string thing'
 # #x.
 # x = x.upper()
 # print(x)
@@ -72,8 +72,16 @@ x = 'the string thing'
 """
 .fromat() method
 """
-print('The String {}'.format('Thing'))
+# print('The String {}'.format('Thing'))
 
-## insert by index
-print('Eat {0} {2} {1}'.format('more','sandwiches', 'possum'))
-print('Eat {a} {b} {b}'.format(a='more', b='sandwiches', c='possum'))
+# ## insert by index
+# print('Eat {0} {2} {1}'.format('more','sandwiches', 'possum'))
+# print('Eat {a} {b} {b}'.format(a='more', b='sandwiches', c='possum'))
+
+## Newer Better Method
+# name = "Albert"
+# print(f"{name} is one of the three Kings of the Blues")
+
+## Float fotmatting {value:width.precision.f} width includes white space in front
+# result = 100/888
+# print("The result is {r:1.3f}".format(r=result))
