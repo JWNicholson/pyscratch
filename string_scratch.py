@@ -85,3 +85,6 @@
 ## Float fotmatting {value:width.precision.f} width includes white space in front
 # result = 100/888
 # print("The result is {r:1.3f}".format(r=result))
+
+
+

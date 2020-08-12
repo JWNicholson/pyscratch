@@ -16,10 +16,18 @@ x = range(1,101)
 
 for n in x:
     #if n modulo 3 and 5 == 0
-
+    if n % 3 == 0 and n% 5 == 0:
+        print("fizzbuzz")
+        continue
     #if n modulo 3 == 0
 
+    else:
+        if n % 3 == 0:
+            print("fizz")
     #if n modulo 5 == 0
-
+        else:
+            if n % 5 == 0:
+                print("buzz")
     #else print n
-    print(n)
+            else:
+                print(n)
