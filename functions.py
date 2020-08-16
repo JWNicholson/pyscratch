@@ -26,14 +26,30 @@
 
 
 #Go through the entire loop and add evens to the list before return the list (results)
-def check_even_list(num_list):
-    even_numbers = []
+# def check_even_list(num_list):
+#     even_numbers = []
 
-    for number in num_list:
-        if number % 2 == 0:
-            even_numbers.append(number)
+#     for number in num_list:
+#         if number % 2 == 0:
+#             even_numbers.append(number)
 
-        else:
-            pass
+#         else:
+#             pass
 
-    return even_numbers
+#     return even_numbers
+
+'''
+Write a function that capitalizes the first and fourth lettes of a name
+'''
+def boogaloo(name):
+    first_letter = name[0]
+    inbetween = name[1:3]
+    fourth_letter = name[3]
+    rest = name[3]
+
+    return first_letter.upper() + inbetween + fourth_letter.upper() + rest
+
+
+x ='Smith'
+
+print(boogaloo(x))
